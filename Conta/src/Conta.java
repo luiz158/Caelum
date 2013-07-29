@@ -14,4 +14,11 @@ public class Conta {
 		Conta.totalDeContas = Conta.totalDeContas + 1;
 	}
 	
+	/**
+	 * @return the totalDeContas
+	 */
+	public int getTotalDeContas() {
+		return Conta.totalDeContas;
+	}
+	
 }
