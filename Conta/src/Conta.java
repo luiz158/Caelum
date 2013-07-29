@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+
+/**
+ * @author Glauco
+ *
+ * @Em 28/07/2013 22:58:54
+ */
+public class Conta {
+	private static int totalDeContas;
+	
+	Conta() {
+		Conta.totalDeContas = Conta.totalDeContas + 1;
+	}
+	
+}
