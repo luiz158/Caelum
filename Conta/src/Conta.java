@@ -1,5 +1,5 @@
 /**
- * Testando GIT no Ubuntu
+ * Testando GIT
  */
 
 /**
