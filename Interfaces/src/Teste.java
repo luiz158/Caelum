@@ -11,9 +11,9 @@
 public class Teste {
 	public static void main(String[] args) {
 		AreaCalculavel a = new Retangulo(3, 2);
-		System.out.println(a.calculaArea());
+		System.out.println("Área do retângulo: " + a.calculaArea());
 		
 		AreaCalculavel c = new Circulo(3);
-		System.out.println(c.calculaArea());
+		System.out.println("\nÁrea do círculo: " + c.calculaArea());
 	}
 }
