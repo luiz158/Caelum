@@ -1,3 +1,4 @@
+package br.com.glauco.banco.conta;
 /**
  * Testando GIT no Ubuntu!
  */
@@ -22,7 +23,7 @@ public class Conta {
 	    return this.saldo;
 	}
 	
-	void atualiza(double taxa) {
+	public void atualiza(double taxa) {
 		this.saldo += this.saldo * taxa;
 	}
 	

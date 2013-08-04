@@ -1,3 +1,7 @@
+package br.com.glauco.banco;
+
+import br.com.glauco.banco.conta.ContaCorrente;
+import br.com.glauco.banco.conta.Tributavel;
 /**
  * 
  */
@@ -5,7 +9,7 @@
 /**
  * @author glauco
  *
- * @Date 04/08/2013 11:52:53
+ * @Date 04/08/2013
  * 
  */
 public class TestaTributavel {

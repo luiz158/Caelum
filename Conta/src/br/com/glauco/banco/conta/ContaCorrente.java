@@ -1,3 +1,4 @@
+package br.com.glauco.banco.conta;
 
 public class ContaCorrente extends Conta implements Tributavel{
 	@Override

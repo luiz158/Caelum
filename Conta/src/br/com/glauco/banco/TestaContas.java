@@ -1,3 +1,10 @@
+package br.com.glauco.banco;
+
+import br.com.glauco.banco.conta.Conta;
+import br.com.glauco.banco.conta.ContaCorrente;
+import br.com.glauco.banco.conta.ContaPoupanca;
+import br.com.glauco.banco.sistema.AtualizadorDeContas;
+
 public class TestaContas {
 	public static void main(String[] args) {
 		Conta c = new Conta();
@@ -10,9 +17,9 @@ public class TestaContas {
 
 		AtualizadorDeContas adc = new AtualizadorDeContas(0.01);
 
-		adc.roda(c);
-		adc.roda(cc);
-		adc.roda(cp);
+		//adc.roda(c);
+		//adc.roda(cc);
+		//adc.roda(cp);
 
 		System.out.println("Saldo Total: " + adc.getSaldoTotal());
 
