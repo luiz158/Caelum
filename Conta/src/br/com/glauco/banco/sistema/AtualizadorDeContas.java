@@ -1,3 +1,6 @@
+package br.com.glauco.banco.sistema;
+
+import br.com.glauco.banco.conta.Conta;
 
 public class AtualizadorDeContas {
 	private double saldoTotal = 0;

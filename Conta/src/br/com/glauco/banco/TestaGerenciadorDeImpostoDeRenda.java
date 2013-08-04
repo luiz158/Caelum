@@ -1,3 +1,8 @@
+package br.com.glauco.banco;
+
+import br.com.glauco.banco.conta.ContaCorrente;
+import br.com.glauco.banco.conta.GerenciadorDeImpostoDeRenda;
+import br.com.glauco.banco.conta.SeguroDeVida;
 /**
  * 
  */
