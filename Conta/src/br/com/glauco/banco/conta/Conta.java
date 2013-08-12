@@ -11,14 +11,25 @@ package br.com.glauco.banco.conta;
 public class Conta {
 	protected double saldo;
 	
+	/*
+	 * Método que realiza o depósito
+	 * @param valor
+	 * */
 	public void deposita(double valor) {
 	    this.saldo += valor;
 	}
-
+	
+	/*
+	 * Método que efetua o saque
+	 * @param valor
+	 */
 	public void saca(double valor) {
 	    this.saldo -= valor;
 	}
-
+	
+	/*
+	 * Método que recupera o saldo da conta
+	 */
 	public double getSaldo() {
 	    return this.saldo;
 	}
@@ -26,18 +37,5 @@ public class Conta {
 	public void atualiza(double taxa) {
 		this.saldo += this.saldo * taxa;
 	}
-	
-	/*private static int totalDeContas;
-	
-	Conta() {
-		Conta.totalDeContas = Conta.totalDeContas + 1;
-	}
-	
-	/**
-	 * @return the totalDeContas
-	 */
-	/*public int getTotalDeContas() {
-		return Conta.totalDeContas;
-	}*/
-	
+		
 }
