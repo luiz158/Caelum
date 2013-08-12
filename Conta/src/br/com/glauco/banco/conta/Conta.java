@@ -37,5 +37,12 @@ public class Conta {
 	public void atualiza(double taxa) {
 		this.saldo += this.saldo * taxa;
 	}
-		
+	
+	public boolean equals (Object object) {
+		Conta outraConta = (Conta) object;
+		if (this.saldo == outraConta.saldo) {
+			return true;
+		}
+		return false;
+	}
 }
