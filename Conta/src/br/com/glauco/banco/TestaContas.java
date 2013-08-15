@@ -9,13 +9,21 @@ public class TestaContas {
 	public static void main(String[] args) {
 		Conta c = new Conta();
 		Conta c1 = new Conta();
-		Conta cc = new ContaCorrente();
-		Conta cp = new ContaPoupanca();
+		//Conta cc = new ContaCorrente();
+		//Conta cp = new ContaPoupanca();
 
 		c.deposita(1000);
-		c1.deposita(100);
-		cc.deposita(1000);
-		cp.deposita(1000);
+		c1.deposita(1000);
+		c.setNumero(123);
+		c1.setNumero(123);
+		
+		
+		//cc.deposita(1000);
+		//cp.deposita(1000);
+		
+		System.out.println(c);
+		
+		System.out.println("Resultado: " + (c == c1));
 		
 		if (c.equals(c1)){
 			System.out.println("Os objetos são iguais!");

@@ -9,8 +9,9 @@ package br.com.glauco.banco.conta;
  * @Em 28/07/2013 22:58:54
  */
 public class Conta {
-	protected double saldo;
 	
+	protected double saldo;
+	private int numero;
 	/*
 	 * Método que realiza o depósito
 	 * @param valor
@@ -40,9 +41,27 @@ public class Conta {
 	
 	public boolean equals (Object object) {
 		Conta outraConta = (Conta) object;
-		if (this.saldo == outraConta.saldo) {
+		if (this.numero == outraConta.numero) {
 			return true;
 		}
 		return false;
+	}
+
+	/**
+	 * @return the numero
+	 */
+	public int getNumero() {
+		return numero;
+	}
+
+	/**
+	 * @param numero the numero to set
+	 */
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	public String toString() {
+		return "Esse objeto é uma conta com saldo R$" + this.saldo;
 	}
 }
